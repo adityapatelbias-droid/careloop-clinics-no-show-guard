@@ -1,0 +1,36 @@
+{
+  "source_rows": 1020,
+  "csv_module_accepted": 988,
+  "csv_module_rejected": 32,
+  "exact_duplicates_removed": 20,
+  "unparseable_appt_dates_removed": 6,
+  "invalid_age_values_changed_to_missing": 4,
+  "age_median_used": 48.0,
+  "distance_median_used": 8.25,
+  "iqr_fences": {
+    "distance_km": {
+      "q1": 4.625,
+      "q3": 13.0,
+      "lower": -7.9375,
+      "upper": 25.5625
+    },
+    "fee_inr": {
+      "q1": 500.0,
+      "q3": 787.5,
+      "lower": 68.75,
+      "upper": 1218.75
+    }
+  },
+  "values_capped": {
+    "distance_km": 26,
+    "fee_inr": 3
+  },
+  "missing_status_rows_excluded": 4,
+  "clean_rows": 990,
+  "clean_columns": 16,
+  "no_shows": 218,
+  "no_show_rate_pct": 22.0,
+  "lead_days_gt_14_count": 296,
+  "distance_abs_z_gt_2_count": 53,
+  "clinic_temperature_missing_count": 0
+}

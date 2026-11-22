@@ -1,0 +1,94 @@
+{
+  "analyses": [
+    {
+      "note_id": "N001",
+      "appointment_id": "A0872",
+      "reason_category": "No reminder",
+      "summary": "Patient forgot the visit after receiving no reminder message and requested a rebook for next week.",
+      "recommended_action": "Reschedule appointment for next week and verify contact details to ensure SMS/call reminders are enabled.",
+      "confidence": "High",
+      "is_empty": false
+    },
+    {
+      "note_id": "N002",
+      "appointment_id": "A0897",
+      "reason_category": "Transport or distance",
+      "summary": "Patient resides far from the clinic, could not find transportation, and considers distance excessive for routine visits.",
+      "recommended_action": "Offer teleconsultation options or assist in identifying closer clinic affiliates/transport options.",
+      "confidence": "High",
+      "is_empty": false
+    },
+    {
+      "note_id": "N003",
+      "appointment_id": "A0526",
+      "reason_category": "Financial",
+      "summary": "Patient skipped the visit due to high consultation fees and inquired about follow-up discounts.",
+      "recommended_action": "Inform patient regarding discounted follow-up fee structures, financial aid, or sliding scale options.",
+      "confidence": "High",
+      "is_empty": false
+    },
+    {
+      "note_id": "N004",
+      "appointment_id": "A0926",
+      "reason_category": "Unknown",
+      "summary": "No note text available.",
+      "recommended_action": "Contact patient to identify reason for missed appointment and update follow-up notes.",
+      "confidence": "Low",
+      "is_empty": true
+    },
+    {
+      "note_id": "N005",
+      "appointment_id": "A0534",
+      "reason_category": "Illness",
+      "summary": "Patient was bedridden with high fever and body ache on the appointment day, planning to visit upon recovery.",
+      "recommended_action": "Follow up in a few days to assess recovery and reschedule the appointment.",
+      "confidence": "High",
+      "is_empty": false
+    },
+    {
+      "note_id": "N006",
+      "appointment_id": "A0507",
+      "reason_category": "Work or scheduling",
+      "summary": "Patient could not attend due to an urgent office meeting and requested an evening appointment slot.",
+      "recommended_action": "Reschedule the patient into an evening consultation slot as requested.",
+      "confidence": "High",
+      "is_empty": false
+    },
+    {
+      "note_id": "N007",
+      "appointment_id": "A0333",
+      "reason_category": "No reminder",
+      "summary": "Patient forgot the visit because no SMS was received and requested rebooking.",
+      "recommended_action": "Reschedule the appointment and verify mobile number to ensure automated SMS delivery.",
+      "confidence": "High",
+      "is_empty": false
+    },
+    {
+      "note_id": "N008",
+      "appointment_id": "A0222",
+      "reason_category": "Transport or distance",
+      "summary": "Patient could not attend due to a city bus strike, lack of local auto-rickshaws, and significant distance.",
+      "recommended_action": "Offer a rescheduled date or provide telemedicine options to alleviate travel barriers.",
+      "confidence": "High",
+      "is_empty": false
+    },
+    {
+      "note_id": "N009",
+      "appointment_id": "A0977",
+      "reason_category": "Contact issue",
+      "summary": "Patient was unreachable across three attempts as the phone was switched off.",
+      "recommended_action": "Attempt contact via alternate channels (email, secondary contact) or try calling at a later time.",
+      "confidence": "High",
+      "is_empty": false
+    },
+    {
+      "note_id": "N010",
+      "appointment_id": "A0596",
+      "reason_category": "Work or scheduling",
+      "summary": "Patient experienced a factory shift change, was unable to take leave, and requested a Saturday appointment.",
+      "recommended_action": "Reschedule the appointment to an available Saturday slot.",
+      "confidence": "High",
+      "is_empty": false
+    }
+  ]
+}

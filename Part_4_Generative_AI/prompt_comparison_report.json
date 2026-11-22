@@ -1,0 +1,28 @@
+{
+  "comparison": "CRAFT vs Basic Prompt",
+  "notes_analysed": 10,
+  "craft_prompt": {
+    "valid_records": 10,
+    "schema_validation": "Passed",
+    "consistent_categories": true
+  },
+  "basic_prompt": {
+    "records_returned": 10,
+    "schema_validation": "Failed",
+    "category_consistency": "Inconsistent",
+    "issues": [
+      "Used different category labels",
+      "N004 had no reason category",
+      "Pydantic rejected the response"
+    ],
+    "normalized_records": 10,
+    "normalized_schema_validation": "Passed",
+    "normalization_required": true,
+    "normalization_details": [
+      "Mapped inconsistent category labels to predefined categories",
+      "Converted numeric confidence scores to High/Medium/Low",
+      "Preserved the empty note as Unknown"
+    ]
+  },
+  "conclusion": "The CRAFT prompt generated consistent structured output and passed Pydantic validation directly. The Basic Prompt identified similar reasons but initially failed validation because its category labels and confidence format differed from the predefined schema. After normalization, all 10 Basic Prompt records passed validation. This demonstrates that CRAFT reduced the need for post-processing."
+}
