@@ -1,3 +1,5 @@
+**GitHub Repository:** https://github.com/adityapatelbias-droid/careloop-clinics-no-show-guard
+
 # CareLoop Clinics — No-Show Guard
 
 **An End-to-End Healthcare Data Analytics, Machine Learning and Generative AI Project**
